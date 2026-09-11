@@ -23,6 +23,6 @@ iso:
 	mkdir iso/boot/grub/ -p
 	cp grub.cfg iso/boot/grub/
 	cp kern iso/boot/
-	grub-mkrescue iso --output=TralahTek.iso
+	grub-mkrescue iso --output=RootHarmony.iso
 	@echo "Done Generating Iso Images"
 	ls
